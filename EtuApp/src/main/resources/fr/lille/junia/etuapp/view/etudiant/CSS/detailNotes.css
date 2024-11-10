@@ -1,0 +1,32 @@
+/* detailNotes.css */
+
+/* General background for the anchor pane */
+.anchor-pane {
+    -fx-background-color: #f9f9f9; /* Light background for the pane */
+}
+
+/* Label styling */
+.label {
+    -fx-font-size: 20px; /* Larger font size for the subject name */
+    -fx-font-weight: bold; /* Bold text for emphasis */
+    -fx-text-fill: #333; /* Dark gray text color */
+    -fx-padding: 10; /* Padding around the label */
+}
+
+/* ListView styling */
+.list-view {
+    -fx-background-color: white; /* White background for the ListView */
+    -fx-border-color: #ccc; /* Light gray border */
+    -fx-border-radius: 5; /* Rounded corners for the ListView */
+}
+
+/* ListView items */
+.list-view .list-view-cell {
+    -fx-padding: 10; /* Padding inside list items */
+    -fx-font-size: 14px; /* Font size for list items */
+    -fx-text-fill: #333; /* Dark gray text color for items */
+}
+
+.list-view .list-view-cell:hover {
+    -fx-background-color: #e6f2e6; /* Light green background on hover */
+}

@@ -1,0 +1,59 @@
+/* manageProfessors.css */
+
+/* General styles for the layout */
+.border-pane {
+    -fx-background-color: #f9f9f9; /* Light background for the whole pane */
+}
+
+.label {
+    -fx-text-fill: #333; /* Dark text color for labels */
+}
+
+.button {
+    -fx-background-color: #70806f; /* Green primary color for buttons */
+    -fx-text-fill: white; /* White text color for buttons */
+    -fx-padding: 10 20; /* Padding inside buttons */
+    -fx-font-size: 14px; /* Consistent font size for buttons */
+    -fx-background-radius: 5; /* Rounded corners */
+}
+
+.button:hover {
+    -fx-background-color: #218838; /* Darker green on hover */
+}
+
+.text-field, .combo-box {
+    -fx-background-color: white; /* White background for inputs */
+    -fx-border-color: #ccc; /* Light gray border */
+    -fx-border-radius: 5; /* Rounded corners */
+    -fx-padding: 5; /* Padding inside input fields */
+    -fx-font-size: 14px; /* Consistent font size */
+}
+
+.text-field:focused, .combo-box:focused {
+    -fx-border-color: #70806f; /* Green border when focused */
+}
+
+/* Title styling */
+.label.title {
+    -fx-font-size: 30px; /* Larger font for titles */
+    -fx-text-fill: #70806f; /* Green color for title text */
+}
+
+/* GridPane adjustments */
+.grid-pane {
+    -fx-background-color: #ffffff; /* White background for the GridPane */
+    -fx-padding: 20; /* Padding around the content */
+    -fx-border-color: #ddd; /* Light gray border */
+    -fx-border-width: 1; /* Border width */
+    -fx-background-radius: 10; /* Rounded corners */
+}
+
+/* Spacing for HBox containing buttons */
+.hbox {
+    -fx-spacing: 15; /* Spacing between buttons */
+}
+
+/* Set spacing for VBox if needed */
+.vbox {
+    -fx-spacing: 15; /* Spacing between elements in the VBox */
+}

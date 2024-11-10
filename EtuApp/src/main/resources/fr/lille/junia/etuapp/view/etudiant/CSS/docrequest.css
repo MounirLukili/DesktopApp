@@ -1,0 +1,34 @@
+/* docrequest.css */
+
+/* General background for the anchor pane */
+.anchor-pane {
+    -fx-background-color: #f9f9f9; /* Light background for the pane */
+}
+
+/* Label styling */
+.label {
+    -fx-font-size: 20px; /* Larger font size for the label */
+    -fx-font-weight: bold; /* Bold text for emphasis */
+    -fx-text-fill: #333; /* Dark gray text color */
+    -fx-padding: 10; /* Padding around the label */
+}
+
+/* ComboBox styling */
+.combo-box {
+    -fx-background-color: white; /* White background for ComboBox */
+    -fx-border-color: #ccc; /* Light gray border */
+    -fx-border-radius: 5; /* Rounded corners for ComboBox */
+}
+
+/* Button styling */
+.button {
+    -fx-background-color: #70806f; /* Theme color for buttons */
+    -fx-text-fill: white; /* White text color */
+    -fx-font-size: 14px; /* Font size for button text */
+    -fx-padding: 10; /* Padding inside buttons */
+    -fx-background-radius: 5; /* Rounded corners for buttons */
+}
+
+.button:hover {
+    -fx-background-color: #5c6b5b; /* Darker shade on hover */
+}

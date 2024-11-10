@@ -1,0 +1,41 @@
+/* metieres.css */
+
+/* General background for the anchor pane */
+.anchor-pane {
+    -fx-background-color: #f5f5f5; /* Light gray background for the pane */
+}
+
+/* VBox styling */
+.vbox {
+    -fx-padding: 20; /* Padding around the VBox */
+}
+
+/* TableView styling */
+.table-view {
+    -fx-border-color: #ccc; /* Light gray border for the table */
+    -fx-border-radius: 5; /* Rounded corners for the table */
+}
+
+/* Label styling for table columns */
+.table-column {
+    -fx-font-size: 16px; /* Larger font size for table header */
+    -fx-text-fill: #444; /* Dark gray text color */
+}
+
+/* Button styling */
+.button {
+    -fx-background-color: #70806f; /* Green background for buttons */
+    -fx-text-fill: white; /* White text color */
+    -fx-font-size: 14px; /* Font size for button text */
+    -fx-padding: 10; /* Padding inside buttons */
+    -fx-background-radius: 5; /* Rounded corners for buttons */
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Darker shade on hover */
+}
+
+/* HBox styling for button layout */
+.hbox {
+    -fx-alignment: CENTER; /* Center alignment for buttons */
+}

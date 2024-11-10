@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="556.0" prefWidth="814.0" stylesheets="@CSS/gestionCours.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/15" fx:controller="fr.lille.junia.etuapp.Controller.Professeur.GestionCours">
+    <VBox layoutX="20.0" layoutY="20.0" spacing="10.0" />
+     <TableView fx:id="matiereTable" layoutX="209.0" layoutY="59.0">
+         <columns>
+             <TableColumn fx:id="matiereColumn" prefWidth="393.0" text="Matière" />
+         </columns>
+     </TableView>
+     <HBox layoutX="180.0" layoutY="490.0" spacing="10" />
+      <Button layoutX="27.0" layoutY="20.0" onAction="#handleRetour" text="Retour" />
+      <Button layoutX="445.0" layoutY="490.0" onAction="#handleAddMatiere" prefHeight="40.0" prefWidth="161.0" text="Ajouter Matière" />
+      <Button layoutX="209.0" layoutY="490.0" onAction="#handleDeleteMatiere" text="Supprimer Matière" />
+</AnchorPane>

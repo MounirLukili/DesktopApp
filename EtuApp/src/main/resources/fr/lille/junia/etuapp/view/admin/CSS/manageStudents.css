@@ -1,0 +1,77 @@
+/* General Background and BorderPane Styling */
+.root {
+    -fx-background-color: #eef1ed; /* Light theme background */
+}
+
+/* Header Label Styling */
+.header-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #70806f; /* Theme color for header text */
+    -fx-padding: 20px 0;
+    -fx-alignment: center;
+}
+
+/* Form Pane Styling */
+.form-pane {
+    -fx-padding: 30px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #70806f;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0, 0);
+}
+
+/* Label Styling */
+.label {
+    -fx-text-fill: #70806f; /* Theme color for label text */
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+}
+
+/* TextField Styling */
+.text-field {
+    -fx-background-color: #f8f9f7;
+    -fx-border-color: #c5c7c4;
+    -fx-padding: 5px;
+}
+
+/* ComboBox Styling */
+.combo-box {
+    -fx-background-color: #f8f9f7;
+    -fx-border-color: #c5c7c4;
+    -fx-padding: 5px;
+}
+
+/* Button Styling */
+.button {
+    -fx-background-color: #70806f; /* Theme color for button background */
+    -fx-text-fill: white;          /* White text color */
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 15px;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #5a6b59; /* Darker shade on hover */
+}
+
+.button:pressed {
+    -fx-background-color: #4d5e4d; /* Even darker shade when pressed */
+}
+
+/* Return Button Styling */
+#returnButton {
+    -fx-background-color: #e3675d; /* Red theme color for Return button */
+    -fx-background-radius: 5;
+}
+
+#returnButton:hover {
+    -fx-background-color: #c94d49; /* Darker red on hover */
+}
+
+#returnButton:pressed {
+    -fx-background-color: #b4413d; /* Even darker red when pressed */
+}

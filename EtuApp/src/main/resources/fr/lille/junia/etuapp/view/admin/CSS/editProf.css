@@ -1,0 +1,72 @@
+/* editProf.css */
+
+/* General background */
+.anchor-pane {
+    -fx-background-color: #f9f9f9; /* Light background for the whole pane */
+}
+
+/* Search and button styling */
+.text-field {
+    -fx-background-color: white; /* White background for search field */
+    -fx-border-color: #ccc; /* Light gray border */
+    -fx-border-radius: 5; /* Rounded corners */
+    -fx-padding: 5; /* Padding inside search field */
+    -fx-font-size: 14px; /* Consistent font size */
+}
+
+.text-field:focused {
+    -fx-border-color: #70806f; /* Green border when focused */
+}
+
+.button {
+    -fx-background-color: #70806f; /* Green color for buttons */
+    -fx-text-fill: white; /* White text for buttons */
+    -fx-padding: 10 20; /* Padding inside buttons */
+    -fx-font-size: 14px; /* Consistent font size */
+    -fx-background-radius: 5; /* Rounded corners */
+}
+
+.button:hover {
+    -fx-background-color: #5a6b57; /* Darker green when hovered */
+}
+
+.list-view {
+    -fx-background-color: white; /* White background for ListView */
+    -fx-border-color: #ccc; /* Light gray border for ListView */
+    -fx-border-radius: 5; /* Rounded corners */
+    -fx-padding: 10; /* Padding around items */
+}
+
+/* Adjusting ListView styling */
+.list-cell {
+    -fx-font-size: 14px; /* Consistent font size */
+    -fx-background-color: transparent; /* Transparent background for items */
+}
+
+/* Spacing between buttons */
+.hbox {
+    -fx-spacing: 10; /* Space between buttons */
+}
+
+/* Set consistent margins */
+.anchor-pane > * {
+    -fx-margin: 10; /* Margin around all elements */
+}
+
+/* editProf.css */
+
+.list-view .list-cell:filled:selected {
+    -fx-background-color: #4A90E2; /* Background color when selected */
+    -fx-text-fill: white; /* Text color when selected */
+}
+
+.list-view .list-cell:filled {
+    -fx-background-color: white; /* Default background color */
+    -fx-text-fill: black; /* Default text color */
+}
+
+/* Optional: Change hover effects */
+.list-view .list-cell:hover {
+    -fx-background-color: #E0E0E0; /* Background color on hover */
+}
+

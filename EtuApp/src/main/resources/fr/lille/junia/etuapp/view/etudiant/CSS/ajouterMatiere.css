@@ -1,0 +1,43 @@
+/* ajouterMatiere.css */
+
+/* General background for the anchor pane */
+.anchor-pane {
+    -fx-background-color: #f9f9f9; /* Light background for the pane */
+}
+
+/* Label styling */
+.label {
+    -fx-font-size: 16px; /* General font size for labels */
+    -fx-text-fill: #333; /* Dark gray text color for labels */
+}
+
+/* ComboBox styling */
+.combo-box {
+    -fx-background-color: white; /* White background */
+    -fx-border-color: #ccc; /* Light gray border */
+    -fx-padding: 5; /* Padding inside ComboBox */
+    -fx-font-size: 14px; /* Consistent font size */
+}
+
+/* Button styling */
+.button {
+    -fx-background-color: #70806f; /* Green color for buttons */
+    -fx-text-fill: white; /* White text for buttons */
+    -fx-padding: 10 15; /* Padding inside buttons */
+    -fx-font-size: 14px; /* Consistent font size */
+    -fx-background-radius: 5; /* Rounded corners */
+}
+
+.button:hover {
+    -fx-background-color: #5a6b57; /* Darker green when hovered */
+}
+
+/* Set consistent margins for layout elements */
+.anchor-pane > * {
+    -fx-margin: 10; /* Add margin between elements */
+}
+
+/* Aligning elements within the AnchorPane */
+.label, .combo-box, .button {
+    -fx-alignment: center-left;
+}

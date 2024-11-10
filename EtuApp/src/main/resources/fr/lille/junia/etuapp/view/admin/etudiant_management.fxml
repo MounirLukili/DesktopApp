@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="600" prefWidth="800" stylesheets="@CSS/manageStudents.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.lille.junia.etuapp.Controller.Admin.AdminController">
+    <center>
+        <GridPane alignment="CENTER" hgap="20" styleClass="form-pane" vgap="20">
+            <!-- Input fields for Etudiant -->
+            <Label text="Nom:" />
+            <TextField fx:id="etudiantNomField" prefWidth="300" GridPane.columnIndex="1" />
+
+            <Label text="Prenom:" GridPane.rowIndex="1" />
+            <TextField fx:id="etudiantPrenomField" prefWidth="300" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+            <Label text="Email:" GridPane.rowIndex="2" />
+            <TextField fx:id="etudiantEmailField" prefWidth="300" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+            <Label text="Department:" GridPane.rowIndex="3" />
+            <ComboBox fx:id="departmentComboBox" prefWidth="300" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
+            <!-- Aligned buttons in a single row with proper spacing -->
+            <Button onAction="#addEtudiant" text="Add Student" GridPane.rowIndex="5">
+                <GridPane.margin>
+                    <Insets left="15.0" right="20.0" />
+                </GridPane.margin>
+            </Button>
+            <Button onAction="#deleteEtudiant" text="Delete Student" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                <GridPane.margin>
+                    <Insets right="20.0" />
+                </GridPane.margin>
+            </Button>
+            <Button onAction="#searchEtudiant" text="Search Student" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                <GridPane.margin>
+                    <Insets right="20.0" />
+                </GridPane.margin>
+            </Button>
+            <Button onAction="#modifyEtudiant" text="Modify Student" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+
+            <!-- Return button in a new row below the others -->
+            <Button fx:id="returnButton" onAction="#handleReturnAction" text="Return" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                <GridPane.margin>
+                    <Insets left="150.0" />
+                </GridPane.margin>
+            </Button>
+
+            <!-- Column and row constraints -->
+            <columnConstraints>
+                <ColumnConstraints minWidth="150" />
+                <ColumnConstraints minWidth="150" />
+                <ColumnConstraints minWidth="150" />
+                <ColumnConstraints minWidth="150" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints />
+                <RowConstraints minHeight="-Infinity" />
+                <RowConstraints minHeight="30.0" />
+            <RowConstraints minHeight="30.0" prefHeight="30.0" />
+            </rowConstraints>
+        </GridPane>
+    </center>
+    <top>
+        <AnchorPane prefHeight="114.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="293.0" layoutY="8.0" prefHeight="99.0" prefWidth="215.0" styleClass="header-label" text="Gestion Etudiants">
+                    <font>
+                        <Font size="45.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+    </top>
+</BorderPane>

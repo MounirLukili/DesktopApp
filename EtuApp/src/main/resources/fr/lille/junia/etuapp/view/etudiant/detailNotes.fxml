@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="485.0" prefWidth="397.0" stylesheets="@CSS/detailNotes.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/15" fx:controller="fr.lille.junia.etuapp.Controller.Etudiant.NoteDController">
+    <Label fx:id="matiereLabel" layoutX="106.0" text="Détails Des Notes" />
+    <ListView fx:id="marksListView" layoutY="52.0" prefHeight="423.0" prefWidth="377.0" AnchorPane.bottomAnchor="10" AnchorPane.leftAnchor="10" AnchorPane.rightAnchor="10" AnchorPane.topAnchor="52.0" />
+</AnchorPane>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" stylesheets="@CSS/manageProfs.css" fx:controller="fr.lille.junia.etuapp.Controller.Admin.AdminPController" prefHeight="400" prefWidth="600">
+    <top>
+        <Label text="Manage Professors" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-padding: 10 0 20 0;" BorderPane.alignment="CENTER" />
+    </top>
+    <center>
+        <GridPane hgap="20" vgap="15" alignment="CENTER" style="-fx-padding: 20;">
+            <!-- Input fields for Professeur -->
+            <Label text="Nom:" style="-fx-font-size: 14px;" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <TextField fx:id="professeurPrenomField" prefWidth="250" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+
+            <Label text="Prenom:" style="-fx-font-size: 14px;" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <TextField fx:id="professeurNomField" prefWidth="250" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+            <Label text="Email:" style="-fx-font-size: 14px;" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <TextField fx:id="professeurEmailField" prefWidth="250" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+            <Label text="Departement:" style="-fx-font-size: 14px;" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+            <ComboBox fx:id="departmentComboBox" prefWidth="250" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
+            <!-- Buttons for CRUD operations, aligned horizontally -->
+            <HBox spacing="15" alignment="CENTER" GridPane.columnSpan="2" GridPane.rowIndex="4">
+                <Button text="Add Professor" onAction="#addProfesseur" prefWidth="120" />
+                <Button text="Delete Professor" onAction="#deleteProfesseur" prefWidth="120" />
+                <Button text="Modify Professor" onAction="#modifyProf" prefWidth="120" />
+                <Button fx:id="returnButton" text="Return" onAction="#handleReturnAction" />
+
+            </HBox>
+        </GridPane>
+    </center>
+</BorderPane>

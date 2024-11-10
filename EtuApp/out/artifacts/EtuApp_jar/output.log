@@ -1,0 +1,12 @@
+[2024/11/10 14:22:47.447, EtuApp-1.0.exe (PID: 4296, TID: 18896), WinFileUtils.cpp:115 (FileUtils::`anonymous-namespace'::createNewFile)]
+	TRACE: Created [C:\Users\LEGION\AppData\Local\Temp\206680250.tmp] file
+[2024/11/10 14:22:47.447, EtuApp-1.0.exe (PID: 4296, TID: 18896), WinFileUtils.cpp:286 (FileUtils::`anonymous-namespace'::deleteFileImpl)]
+	TRACE: Deleted [C:\Users\LEGION\AppData\Local\Temp\206680250.tmp] file
+[2024/11/10 14:22:47.448, EtuApp-1.0.exe (PID: 4296, TID: 18896), WinFileUtils.cpp:175 (FileUtils::`anonymous-namespace'::createDir)]
+	TRACE: Created [C:\Users\LEGION\AppData\Local\Temp\206680250.tmp\] directory
+[2024/11/10 14:22:47.449, EtuApp-1.0.exe (PID: 4296, TID: 18896), WinFileUtils.cpp:115 (FileUtils::`anonymous-namespace'::createNewFile)]
+	TRACE: Created [C:\Users\LEGION\AppData\Local\Temp\206680250.tmp\jds206680265.tmp] file
+[2024/11/10 14:22:47.610, EtuApp-1.0.exe (PID: 4296, TID: 18896), WinFileUtils.cpp:251 (FileUtils::`anonymous-namespace'::moveFileImpl)]
+	TRACE: Moved 'C:\Users\LEGION\AppData\Local\Temp\206680250.tmp\jds206680265.tmp' file to 'C:\Users\LEGION\AppData\Local\Temp\206680250.tmp\main.msi'
+[2024/11/10 14:22:47.629, EtuApp-1.0.exe (PID: 4296, TID: 18896), Executor.cpp:122 (Executor::startProcess)]
+	TRACE: CreateProcess(C:\WINDOWS\system32\msiexec.exe, C:\WINDOWS\system32\msiexec.exe /i C:\Users\LEGION\AppData\Local\Temp\206680250.tmp\main.msi) succeeded; PID=11572

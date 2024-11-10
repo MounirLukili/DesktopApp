@@ -1,0 +1,44 @@
+/* gestionAddCours.css */
+
+/* General background */
+.anchor-pane {
+    -fx-background-color: #f9f9f9; /* Light background for the pane */
+}
+
+/* Label styling */
+.label {
+    -fx-font-size: 16px; /* Font size for labels */
+    -fx-font-weight: bold; /* Bold font for emphasis */
+    -fx-text-fill: #333; /* Dark text color */
+}
+
+/* ComboBox styling */
+.combo-box {
+    -fx-background-color: white; /* White background for ComboBox */
+    -fx-border-color: #ccc; /* Light gray border */
+    -fx-border-radius: 5; /* Rounded corners */
+    -fx-padding: 5; /* Padding inside ComboBox */
+    -fx-font-size: 14px; /* Consistent font size */
+}
+
+.combo-box:focused {
+    -fx-border-color: #70806f; /* Green border when focused */
+}
+
+/* Button styling */
+.button {
+    -fx-background-color: #70806f; /* Green color for buttons */
+    -fx-text-fill: white; /* White text for buttons */
+    -fx-padding: 10 20; /* Padding inside buttons */
+    -fx-font-size: 14px; /* Consistent font size */
+    -fx-background-radius: 5; /* Rounded corners */
+}
+
+.button:hover {
+    -fx-background-color: #5a6b57; /* Darker green when hovered */
+}
+
+/* Set consistent margins */
+.anchor-pane > * {
+    -fx-margin: 10; /* Margin around all elements */
+}

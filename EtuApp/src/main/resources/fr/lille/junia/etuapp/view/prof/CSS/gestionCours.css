@@ -1,0 +1,43 @@
+/* gestionCours.css */
+
+/* General background for the anchor pane */
+.anchor-pane {
+    -fx-background-color: #f9f9f9; /* Light background for the pane */
+}
+
+/* TableView styling */
+.table-view {
+    -fx-background-color: white; /* White background for TableView */
+    -fx-border-color: #ccc; /* Light gray border */
+    -fx-border-radius: 5; /* Rounded corners */
+}
+
+/* TableColumn header styling */
+.table-view .column-header {
+    -fx-background-color: #70806f; /* Green background for headers */
+    -fx-text-fill: white; /* White text for headers */
+    -fx-font-weight: bold; /* Bold font for headers */
+}
+
+/* Button styling */
+.button {
+    -fx-background-color: #70806f; /* Green color for buttons */
+    -fx-text-fill: white; /* White text for buttons */
+    -fx-padding: 10 20; /* Padding inside buttons */
+    -fx-font-size: 14px; /* Consistent font size */
+    -fx-background-radius: 5; /* Rounded corners */
+}
+
+.button:hover {
+    -fx-background-color: #5a6b57; /* Darker green when hovered */
+}
+
+/* VBox styling */
+.vbox {
+    -fx-padding: 10; /* Padding around VBox */
+}
+
+/* Set consistent margins for HBox */
+.hbox > * {
+    -fx-margin: 5; /* Margin around all buttons */
+}

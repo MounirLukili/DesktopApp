@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" stylesheets="@CSS/manageMatiere.css" fx:controller="fr.lille.junia.etuapp.Controller.Admin.AdminMController" prefHeight="400" prefWidth="600">
+    <top>
+        <Label text="Gestion Des Cours" style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-padding: 10 0 20 0;" BorderPane.alignment="CENTER" />
+    </top>
+    <center>
+        <GridPane hgap="20" vgap="15" alignment="CENTER" style="-fx-padding: 20;">
+        <!-- Input fields for Professeur -->
+        <Label text="Nom de la matière:" style="-fx-font-size: 14px;" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+        <TextField fx:id="MatiereNomField" prefWidth="250" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+
+
+        <Label text="Departement:" style="-fx-font-size: 14px;" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+        <ComboBox fx:id="departmentComboBox" prefWidth="250" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+        <!-- Buttons for CRUD operations, aligned horizontally -->
+        <HBox spacing="15" alignment="CENTER" GridPane.columnSpan="2" GridPane.rowIndex="4">
+            <Button text="Add Matière" onAction="#addMatiere" prefWidth="120" />
+            <Button text="Supprimer Matière" onAction="#deleteMatiere" prefWidth="120" />
+            <Button fx:id="returnButton" text="Return" onAction="#handleReturnAction" />
+
+
+        </HBox>
+
+        </GridPane>
+    </center>
+</BorderPane>
+
+
+

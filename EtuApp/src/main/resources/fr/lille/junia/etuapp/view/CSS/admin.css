@@ -1,0 +1,55 @@
+/* General Background and BorderPane Styling */
+.root {
+    -fx-background-color: #f3f5f1; /* Light background to contrast with theme color */
+}
+
+.label {
+    -fx-text-fill: #70806f; /* Theme color for text */
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial";
+}
+
+.button {
+    -fx-background-color: #70806f; /* Theme color background */
+    -fx-text-fill: white;          /* White text color */
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Arial";
+    -fx-padding: 10 20 10 20;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #5a6b59; /* Darker shade on hover */
+}
+
+.button:pressed {
+    -fx-background-color: #4d5e4d; /* Even darker shade when pressed */
+}
+
+#addModifyDeleteEtudiantButton,
+#addModifyDeleteProfesseurButton,
+#addModifyDeleteMatiereButton,
+#logoutButton {
+    -fx-pref-width: 250px; /* Consistent button width */
+}
+
+#logoutButton {
+    -fx-background-color: #d9534f; /* Distinct color for logout button */
+    -fx-background-radius: 5;
+}
+
+#logoutButton:hover {
+    -fx-background-color: #c9302c; /* Darker shade on hover */
+}
+
+#logoutButton:pressed {
+    -fx-background-color: #ac2925; /* Even darker shade when pressed */
+}
+
+.label {
+    -fx-font-size: 24px;
+    -fx-padding: 0 0 10px 0;
+    -fx-font-family: "Arial";
+}

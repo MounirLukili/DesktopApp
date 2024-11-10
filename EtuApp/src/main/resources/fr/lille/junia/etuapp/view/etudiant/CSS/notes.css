@@ -1,0 +1,26 @@
+/* notes.css */
+
+/* General background for the anchor pane */
+.anchor-pane {
+    -fx-background-color: #f5f5f5; /* Light gray background for the pane */
+}
+
+/* ListView styling */
+.list-view {
+    -fx-border-color: #ccc; /* Light gray border for the ListView */
+    -fx-border-radius: 5; /* Rounded corners for the ListView */
+    -fx-padding: 10; /* Padding inside the ListView */
+}
+
+/* Button styling */
+.button {
+    -fx-background-color: #70806f; /* Green background for buttons */
+    -fx-text-fill: white; /* White text color */
+    -fx-font-size: 14px; /* Font size for button text */
+    -fx-padding: 10; /* Padding inside buttons */
+    -fx-background-radius: 5; /* Rounded corners for buttons */
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Darker shade on hover */
+}

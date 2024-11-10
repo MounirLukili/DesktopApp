@@ -1,0 +1,57 @@
+/* partageNote.css */
+
+/* General background for the anchor pane */
+.anchor-pane {
+    -fx-background-color: #f9f9f9; /* Light background for the pane */
+}
+
+/* Label styling */
+.label {
+    -fx-font-size: 16px; /* General font size for labels */
+    -fx-text-fill: #333; /* Dark gray text color for labels */
+}
+
+/* ComboBox and TextField styling */
+.combo-box, .text-field {
+    -fx-background-color: white; /* White background */
+    -fx-border-color: #ccc; /* Light gray border */
+    -fx-padding: 5; /* Padding inside input fields */
+    -fx-font-size: 14px; /* Consistent font size */
+}
+
+/* TableView styling */
+.table-view {
+    -fx-background-color: white; /* White background for TableView */
+    -fx-border-color: #ccc; /* Light gray border */
+    -fx-border-radius: 5; /* Rounded corners */
+}
+
+/* TableColumn header styling */
+.table-view .column-header {
+    -fx-background-color: #70806f; /* Green background for headers */
+    -fx-text-fill: white; /* White text for headers */
+    -fx-font-weight: bold; /* Bold font for headers */
+}
+
+/* Button styling */
+.button {
+    -fx-background-color: #70806f; /* Green color for buttons */
+    -fx-text-fill: white; /* White text for buttons */
+    -fx-padding: 10 15; /* Padding inside buttons */
+    -fx-font-size: 14px; /* Consistent font size */
+    -fx-background-radius: 5; /* Rounded corners */
+}
+
+.button:hover {
+    -fx-background-color: #5a6b57; /* Darker green when hovered */
+}
+
+/* VBox styling */
+.vbox {
+    -fx-padding: 20; /* Padding around VBox */
+}
+
+/* Set consistent margins for HBox */
+.hbox > * {
+    -fx-margin: 5; /* Margin around all buttons and inputs */
+}
